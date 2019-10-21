@@ -41,3 +41,14 @@
   -webkit-align-items: center;
   align-items: center;
 }
+.type-4 .box-text {
+  position: absolute;
+  margin-top: 60px;
+  background-color: rgba(255,255,255,0.95);
+  width: 88%;
+}
+.type-4 .box-text:hover {
+  background: #58AAAA;
+  transition: .3s;
+  color: #fff;
+}

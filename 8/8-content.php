@@ -7,93 +7,446 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-1">
-    <!--top header-->
-    <div class="top-header">
-        <div class="container">
-            <div class="row header">
-                <div class="col-md-6">
-                    <ul class="item-left">
-                        <li class="nav-item">
-                            <span href="#">OUR PHONE NUMBER: +09 (00)8978343</span>
-                        </li>
-                    </ul>
+<div class="type-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="title">
+                    <h4>LATEST</h4>
+                    <div class="line-botom"></div>
                 </div>
-                <div class="col-md-6">
-                    <ul class="item-right">
-                        <li class="item">
-                            <a href="#"><i class="fa fa-user"></i> My Account</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">Cart</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">our location</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">Contact Us</a>
-                        </li>
-                    </ul>
+                <ul class="product">
+                    <li>
+                        <a href="#"><img width="60" height="60" src="./images/1.jpeg" alt="">
+                            <span class="product-title">On1 Jersey UNIF-2</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                    <li class="rating">
+                        <a href="#">
+                            <img width="60" height="60" src="./images/2.jpeg" alt="">
+                            <span class="product-title">Osaka Entry Tee Superdry 12</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img width="60" height="60" src="./images/3.jpeg" alt="">
+                            <span class="product-title">All Star Canvas Hi Converse</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img width="60" height="60" src="./images/4.jpeg" alt="">
+                            <span class="product-title">Fluro Big Pullover Designers Remix</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="title">
+                    <h4>BEST SELLING</h4>
+                    <div class="line-botom"></div>
                 </div>
+                <ul class="product">
+                    <li>
+                        <a href="#">
+                            <img width="60" height="60" src="./images/4.jpeg" alt="">
+                            <span class="product-title">On1 Jersey UNIF-2</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img width="60" height="60" src="./images/5.jpeg" alt="">
+                            <span class="product-title">Osaka Entry Tee Superdry 12</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img width="60" height="60" src="./images/6.jpeg" alt="">
+                            <span class="product-title">All Star Canvas Hi Converse</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img width="60" height="60" src="./images/7.jpeg" alt="">
+                            <span class="product-title">Fluro Big Pullover Designers Remix</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="title">
+                    <h4>FEATURED</h4>
+                    <div class="line-botom"></div>
+                </div>
+                <ul class="product">
+                    <li>
+                        <a href="#">
+                            <img width="60" height="60" src="./images/1.jpeg" alt="">
+                            <span class="product-title">On1 Jersey UNIF-2</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img width="60" height="60" src="./images/2.jpeg" alt="">
+                            <span class="product-title">Osaka Entry Tee Superdry 12</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img width="60" height="60" src="./images/6.jpeg" alt="">
+                            <span class="product-title">All Star Canvas Hi Converse</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img width="60" height="60" src="./images/5.jpeg" alt="">
+                            <span class="product-title">Fluro Big Pullover Designers Remix</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="title">
+                    <h4>TOP RATED PRODUCTS</h4>
+                    <div class="line-botom"></div>
+                </div>
+                <ul class="product">
+                    <li>
+                        <a href="#">
+                            <img width="60" height="60" src="./images/7.jpeg" alt="">
+                            <span class="product-title">On1 Jersey UNIF-2</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img width="60" height="60" src="./images/2.jpeg" alt="">
+                            <span class="product-title">Osaka Entry Tee Superdry 12</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img width="60" height="60" src="./images/3.jpeg" alt="">
+                            <span class="product-title">All Star Canvas Hi Converse</span>
+                        </a>
+                        <!-- Rating Stars Box -->
+                        <div class='rating-stars'>
+                            <span id='stars'>
+                                <p class='star' data-value='1'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='2'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='3'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='4'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                                <p class='star' data-value='5'>
+                                    <i class='fa fa-star fa-fw'></i>
+                                </p>
+                            </span>
+                        </div>
+                        <span class="price">£39,00</span>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-    <!--menu-->
-
-    <div class="menu">
-        <div class="container">
-            <nav class="navbar navbar-default" role="navigation">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#" class="brand"><img src="./images/logo-bg.png" alt="" class="img-logo"></a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav navbar-left">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">SHOP</a></li>
-                        <li><a href="#">BLOG</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES</b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">FAQS</a></li>
-                                <li><a href="#">About me</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">FEATURE</b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Contact us</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <!-- <ul class="nav navbar-nav ">
-                        <a href="#" class="brand"><img src="./images/logo-bg.png" alt="" class="img-logo"></a>
-                    </ul> -->
-                    <ul class="nav navbar-nav navbar-right top-right">
-                        <li><a href="#" class="nav-link">Login / Register</a></li>
-                        <li>
-                            <form action="" class="form-search">
-                                <input type="search" class="search" placeholder="Search..." ,>
-                                <i class="fa fa-search search-button"></i>
-                            </form>
-                        </li>
-                        <li class="item-cart">
-                            <a href="#" id="opennav"><i class="fa fa-shopping-cart cart-button"></i></i></a>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </nav>
-
-        </div>
-    </div>
-  
-    
+</div>
 </div>

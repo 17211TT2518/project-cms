@@ -1,9 +1,10 @@
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 4,
-    spaceBetween: 30,
+    spaceBetween: 10,
+    loop: true,
     pagination: {
         el: '.swiper-pagination',
-        clickable: true,
+        dynamicBullets: true,
     },
     navigation: {
         nextEl: '.swiper-button-next',
