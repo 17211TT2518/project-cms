@@ -25,27 +25,8 @@
         <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/swiper.min.css">
         <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
         
-        
     </head>
     <body>
         <?php include '5-content.php'; ?>
-        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-       <!--  <script src="<?php echo $url_path ?>/js/5-script.js"></script> -->
-        <script>
-    var swiper = new Swiper('#swiper-container2', {
-        watchSlidesProgress: true,
-        watchSlidesVisibility: true,
-        slidesPerView: 2,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-      },
-      spaceBetween: 20,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-  </script>
     </body>
 </html>

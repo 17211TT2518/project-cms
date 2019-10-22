@@ -43,6 +43,7 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+  display: block;
 }
 .type-6 .swiper-container .swiper-slide .square {
   left: 0;
@@ -56,19 +57,85 @@
 .type-6 .swiper-container .swiper-slide .square .number {
   font-weight: bold;
 }
-.type-6 .swiper-container .text h5 {
-  display: block;
+.type-6 .swiper-container .swiper-slide .text {
+  margin-bottom: 50px;
 }
-.type-6 .swiper-container .text p {
-  display: block;
+.type-6 .swiper-container .swiper-slide .text h5 {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.type-6 .swiper-container .swiper-slide .text p {
+  font-size: 1em;
 }
 .type-6 .swiper-container img {
   width: 365px;
   height: 250px;
 }
-@media (min-width: 550px) {
-  .type-6 img .picture {
-    width: 100%;
-    height: 100%;
-  }
+.type-6 .swiper-container img:hover {
+  width: 365px;
+  height: 250px;
+  opacity: 0.5;
+}
+.type-6 .event .content p {
+  color: #a0a0a0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.type-6 .event .content h3 {
+  font-weight: bold;
+  text-align: center;
+}
+.type-6 .event .images img {
+  margin-top: 30px;
+  width: 100%;
+}
+.type-6 .event .loren p {
+  margin-top: 20px;
+  color: #928d8d;
+}
+.type-6 .event .loren .a {
+  font-size: 1.7em;
+}
+.type-6 .event .loren .c {
+  border-left: 1px solid green;
+  font-style: italic;
+  color: #000000;
+  font-size: 1.5em;
+  padding: 0 30px;
+}
+.type-6 .event .icon {
+  display: flex;
+  justify-content: center;
+}
+.type-6 .event .icon i {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 990px;
+  object-fit: cover;
+  color: #a0a0a0;
+  border: 1px solid #a0a0a0;
+}
+.type-6 .event .icon i:hover {
+  background: #4444ec;
+  color: #ffffff;
+}
+.type-6 .event .content-border {
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 2px solid #a0a0a0;
+  border-top: 1px solid #a0a0a0;
+}
+.type-6 .right {
+  padding-left: 20px;
+  border-left: 1px solid #a0a0a0;
+}
+.type-6 .right h4 {
+  color: #a0a0a0;
+  font-weight: bold;
+}
+.type-6 .right p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #a0a0a0;
 }
