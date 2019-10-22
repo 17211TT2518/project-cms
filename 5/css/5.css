@@ -1,20 +1,49 @@
 .type-5 {
-  margin-bottom: 0px !important;
-  padding-top: 10vh !important;
-  padding-bottom: 10vh !important;
-  background-image: url('../images/background.jpg') !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
+  margin: 40px;
 }
-.type-5 .swiper-slide {
-  background: #882525;
-  line-height: 150px;
+.type-5 .picture {
+  background-image: url(../images/1.png);
+}
+.type-5 .picture h1 {
+  text-transform: uppercase;
   text-align: center;
+  color: #b3acac;
+  font-weight: bold;
+  line-height: 0.3;
+  margin-top: 40px;
+  font-family: Bodoni MT Black;
 }
-.type-5 .swiper-slide .title-custom {
-  height: 6em;
+.type-5 .picture p {
+  text-align: center;
+  color: #b3acac;
+  font-size: 1.5em;
+  margin-top: 40px;
+  font-style: italic;
 }
-.type-5 .lll {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.type-5 .picture .form-control {
+  border-radius: 20px;
+  display: inline-block;
+  color: #b3acac;
+  margin-left: 0;
+  margin-top: 30px;
+  opacity: 0.4;
+}
+.type-5 .picture .btn-center {
+  display: flex;
+  justify-content: center;
+}
+.type-5 .picture .btn-center .btn {
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 480px) {
+  .type-5 h1 {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 360px) {
+  .type-5 h1 {
+    font-size: 2em;
+  }
 }

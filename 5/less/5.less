@@ -1,23 +1,59 @@
-.type-5{
-	margin-bottom: 0px!important;
-    padding-top: 10vh!important;
-    padding-bottom: 10vh!important;
-    background-image: url('../images/background.jpg')!important;
-    background-position: center!important;
-    background-repeat: no-repeat!important;
-    background-size: cover!important;
-    .swiper-slide {
-        // height: 272px;
+    .type-5 {
+        @a: #b3acac;
+        @b: center;
+        @c: uppercase;
+        @d: 1.5em;
+        @e: 40px;
+        margin: @e;
+        .picture {
+            background-image: url(../images/1.png);
+       
+            h1 {
+                text-transform: @c;
+                text-align: @b;
+                color: @a;
+                font-weight: bold;
+                line-height: 0.3;
+                margin-top: @e;
+                font-family: Bodoni MT Black;
+            }
 
-        background: #882525;
-        line-height: 150px;
-        text-align: center;
-        .title-custom{
-        	height: 6em;
+            p {
+                text-align: @b;
+                color: @a;
+                font-size: @d;
+                margin-top: @e;
+                font-style: italic;
+            }
+
+            .form-control {
+                border-radius: 20px;
+                // width: 280px;
+                display: inline-block;
+                color: @a;
+                margin-left: 0;
+                margin-top: 30px;
+                opacity: 0.4;
+            }
+            .btn-center{
+                display: flex; 
+                justify-content: center; 
+                .btn {
+                    border-radius: 20px;
+                    margin-top: 20px;
+                    margin-bottom: @e;
+                }
+            }        
+        }
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 2em;
+             }
+        }
+
+        @media screen and (max-width: 360px) {
+            h1 {
+               font-size: 2em;
+            }
         }
     }
-
-.lll{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-}
