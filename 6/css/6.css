@@ -76,6 +76,9 @@
   height: 250px;
   opacity: 0.5;
 }
+.type-6 .event {
+  padding-right: 30px;
+}
 .type-6 .event .content p {
   color: #a0a0a0;
   text-transform: uppercase;
@@ -88,6 +91,7 @@
 .type-6 .event .images img {
   margin-top: 30px;
   width: 100%;
+  opacity: 1;
 }
 .type-6 .event .loren p {
   margin-top: 20px;
@@ -128,7 +132,7 @@
 }
 .type-6 .right {
   padding-left: 20px;
-  border-left: 1px solid #a0a0a0;
+  border-left: 1px solid #dbdada;
 }
 .type-6 .right h4 {
   color: #a0a0a0;
@@ -138,4 +142,54 @@
   font-size: 1.2em;
   line-height: 1.5;
   color: #a0a0a0;
+}
+.type-6 .right .post {
+  margin-top: 20px;
+}
+.type-6 .right .post .list {
+  margin-top: 25px;
+}
+.type-6 .right .post .list .one {
+  border-bottom: 1px solid #dbdada;
+}
+.type-6 .right .post .list .two {
+  border-bottom: 1px solid #dbdada;
+  margin-top: 10px;
+}
+.type-6 .right .post .list .three {
+  border-bottom: 1px solid #dbdada;
+  margin-top: 10px;
+}
+.type-6 .right .post .list .four {
+  border-bottom: 1px solid #dbdada;
+  margin-top: 10px;
+}
+.type-6 .right .post .list .five {
+  margin-top: 10px;
+}
+.type-6 .right .post .list .month {
+  border: 2px solid #20bdc9;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+.type-6 .right .post .list .month span {
+  color: #20bdc9;
+}
+.type-6 .right .recent {
+  margin-top: 20px;
+}
+.type-6 .right .recent .bot {
+  border-bottom: 1px solid #dbdada;
+}
+.type-6 .right .recent .bot p {
+  color: #585454;
+  padding-top: 10px;
+}
+.type-6 .right .recent .bot-end {
+  border-bottom: none;
+}
+.type-6 .right .recent .bot-end p {
+  color: #585454;
+  padding-top: 10px;
 }
