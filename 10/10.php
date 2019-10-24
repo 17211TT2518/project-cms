@@ -12,7 +12,7 @@
         require_once($dir_block . '/libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/1.less', 'css/1.css');
+    $less->compileFile('less/10.less', 'css/10.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,11 +23,31 @@
         <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/10.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
         <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
         <script src="<?php echo $url_path ?>/js/10.js"></script>
     </head>
     <body>
         <?php include '10-content.php'; ?>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script>
+            $("#flipFlop").modal();
+        </script>
+            <script>
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      </script>
     </body>
 </html>

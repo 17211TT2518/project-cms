@@ -1,0 +1,93 @@
+.type-10{
+	font-family: "Lato", sans-serif;
+	.modal-dialog{
+		border-radius: unset;
+		.modal-content{
+			border-radius: unset;
+			border: unset;
+			.modal-body{
+				padding: 0;
+				.slide-product{
+					.swiper-container {
+						width: 100%;
+						height: 100%;
+						margin-left: auto;
+						margin-right: auto;
+						.img-responsive{
+							width: 100% !important;
+						}
+					}
+					.swiper-button-prev, .swiper-button-next{
+						font-weight: 700;
+						outline: none;
+						color: #777777;
+						&:hover{
+							color: #555555;
+						}
+					}
+					.swiper-pagination-bullet{
+						background: #000;
+						width: 13px;
+    					height: 13px;
+					}
+					.swiper-button-next:after, .swiper-button-prev:after {
+						font-size: 25px;
+					}
+				}
+				
+				
+				
+				.right-descript{
+					.title{
+						font-weight: 700;
+						color: #555555;
+						position: relative;
+						margin-bottom: 40px;
+						&::before{
+							content: '';
+							position: absolute;
+							bottom:-25px;
+							width: 30px;
+							border: 1.5px solid #ccc;
+						}
+					}
+					.descript{
+						color: #555555;
+						font-weight: 520;
+					}
+					.content-descript{
+						width: 100%;
+						.clear-select{
+							// width: 100%;
+							// margin-right: 100px;
+						}
+					}
+					.price{
+						font-weight: 700;
+						color: #000;
+					}
+				}
+				.content-descript{
+					width: 100%;
+					.clear-select{
+						// width: 100%;
+						// margin-right: 100px;
+					}
+				}
+			}
+			
+
+		}
+	}
+	@media only screen and (min-width: 1068px) {
+		 .modal-dialog{
+			width: unset;
+			margin: 40px 200px;
+		}
+	}
+	@media only screen and (min-width: 999px) {
+		.right-descript{
+			padding: 15px;
+		}
+   }
+}

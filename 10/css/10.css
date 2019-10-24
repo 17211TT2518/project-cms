@@ -1,0 +1,79 @@
+.type-10 {
+  font-family: "Lato", sans-serif;
+}
+.type-10 .modal-dialog {
+  border-radius: unset;
+}
+.type-10 .modal-dialog .modal-content {
+  border-radius: unset;
+  border: unset;
+}
+.type-10 .modal-dialog .modal-content .modal-body {
+  padding: 0;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-container .img-responsive {
+  width: 100% !important;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-button-prev,
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-button-next {
+  font-weight: 700;
+  outline: none;
+  color: #777777;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-button-prev:hover,
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-button-next:hover {
+  color: #555555;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-pagination-bullet {
+  background: #000;
+  width: 13px;
+  height: 13px;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-button-next:after,
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-button-prev:after {
+  font-size: 25px;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .title {
+  font-weight: 700;
+  color: #555555;
+  position: relative;
+  margin-bottom: 40px;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .title::before {
+  content: '';
+  position: absolute;
+  bottom: -25px;
+  width: 30px;
+  border: 1.5px solid #ccc;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .descript {
+  color: #555555;
+  font-weight: 520;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .content-descript {
+  width: 100%;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .price {
+  font-weight: 700;
+  color: #000;
+}
+.type-10 .modal-dialog .modal-content .modal-body .content-descript {
+  width: 100%;
+}
+@media only screen and (min-width: 1068px) {
+  .type-10 .modal-dialog {
+    width: unset;
+    margin: 40px 200px;
+  }
+}
+@media only screen and (min-width: 999px) {
+  .type-10 .right-descript {
+    padding: 15px;
+  }
+}
