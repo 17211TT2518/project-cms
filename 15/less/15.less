@@ -1,0 +1,51 @@
+.type-15 {
+    margin-top: 20px;
+    @a: 1.5em;
+    @b: red;
+    @c: #000000;
+    .register{
+        margin: 50px;
+    }
+    .login{
+        margin: 50px;
+    }
+    .form-group {
+        margin-top: 30px;
+        p {
+            color: @c;
+            font-size: @a;
+            span {
+                color: @b
+            }
+        }
+        .checkbox{
+            label{
+                color: @c;
+                font-size: @a;
+                margin-top: 10px;
+            }
+        }
+        .btn{
+            width: 20%;
+            height: 50px;
+            font-weight: bold;
+            background: rgb(55, 168, 168);
+            color: #ffffff;
+        }
+    }
+    a{
+        color: @c;
+        font-size: @a;
+        text-decoration: none;
+    }
+    a:hover{
+        color: blue;
+    }
+    p{
+        font-size: 1.2em;
+        line-height: 1.5;
+    }
+    .right{
+        border-left: 1px solid #d1cece;
+    }
+}
