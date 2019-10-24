@@ -17,17 +17,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>10</title>
+        <title>Module-10</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/10.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
-        <link rel="stylesheet" href="css/swiper.min.css">
-        <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap-3.3.5.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/10.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css"/>
+        <link href="<?php echo $url_path ?>/css/10.css"/>
+        <link href="<?php echo $url_path ?>/css/swiper-5.0.2.min.css">
+        <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"/>
+        <script src="<?php echo $url_path ?>/js/swiper-5.0.2.min.js"/>
+        <script src="<?php echo $url_path ?>/js/bootstrap-3.3.5.min.js"/>
+        <script src="<?php echo $url_path ?>/js/10.js"/>
     </head>
     <body>
         <?php include '10-content.php'; ?>
