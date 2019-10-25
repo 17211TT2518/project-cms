@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    <?php include './8-content.php'; ?>
+	<?php include './8-content.php'; ?>
 	
 </body>
 

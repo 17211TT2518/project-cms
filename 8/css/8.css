@@ -4,6 +4,9 @@
 .type-8 a {
   text-decoration: none;
 }
+.type-8 h4 {
+  color: #a7a5a5;
+}
 .type-8 .title .line-botom {
   height: 3px;
   display: block;
