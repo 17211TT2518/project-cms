@@ -8,15 +8,6 @@ $(document).ready(function () {
 		$("#opennav").click(function () {
 	    openNav();
 	});
-	$(window).scroll(function(){
-        if($(this).scrollTop()>100){
-            $('.menu-2').css('position','fixed');
-            $('.menu-2').css('top','0px');
-        }else{
-            $('.menu-2').css('position','unset');
-            $('.menu-2').css('top','-180px');
-        }
-    });
 });
 function openNav() {
     $("#mySidenav").css('width', "324px");
