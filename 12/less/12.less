@@ -1,4 +1,5 @@
 @color-gray: #777777;
+@color-white: #ffffff;
 @background-gray: rgb(177, 168, 168);
 .type-12 {
     margin-top: 20px;
@@ -39,6 +40,43 @@
                     text-align: center;
                     color: #6096cc;
                 }
+            }
+        }
+        .images-text{
+            .col-md-3{
+                margin-bottom: 25px;
+            }
+        }
+        .icon-share{
+            text-align: center;
+            ul li{
+                list-style: none;
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                padding-top: 5px;
+                margin-left: -40px;
+                margin-right: 55px;
+            }
+            .social-facebook:hover{
+                background-color: #365493;
+                border-radius: 50%;
+                color: @color-white;
+            }
+            .social-twitter:hover{
+                background-color: #3CF;
+                border-radius: 50%;
+                color: @color-white; 
+            }
+            .social-email:hover{
+                background-color: #F89A1E;
+                border-radius: 50%;
+                color: @color-white;   
+            }
+            .social-in:hover{
+                background-color: #0274b3;
+                border-radius: 50%;
+                color: @color-white; 
             }
         }
     }
@@ -95,4 +133,9 @@
 
     }
 
+}
+@media screen and (max-width: 990px){
+    .decsiton-left{
+        border-right: none!important;
+    }
 }

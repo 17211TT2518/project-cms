@@ -19,6 +19,41 @@
                         dolorum, tenetur repellat. Animi deserunt ratione nemo?
                     </div>
                 </div>
+                <div class="row images-text">
+                    <div class="col-md-3">
+                        <img src="./images/2.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./images/3.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./images/4.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./images/5.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./images/6.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./images/7.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./images/8.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./images/9.jpg" alt="" class="img-responsive">
+                    </div>
+
+                </div>
+                <div class="icon-share">
+                    <ul>
+                        <li class="social-facebook"><i class="fa fa-facebook-square"></i></li>
+                        <li class="social-twitter"><i class="fa fa-twitter"></i></li>
+                        <li class="social-email"><i class="fa fa-envelope-o"></i></li>
+                        <li class="social-in"><i class="fa fa-linkedin"></i></li>
+                    </ul>
+                </div>
             </div>
             <div class="col-md-4 decsiton-right">
                 <div class="title-right">
