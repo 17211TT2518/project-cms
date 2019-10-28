@@ -29,7 +29,7 @@
 </head>
 
 <body>
-    <?php include './4-content.php'; ?>
+    <?php include './2-content.php'; ?>
 	<script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
 	<script src="<?php echo $url_path ?>/js/2.js"></script>
 </body>
