@@ -11,7 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-13">
+<div class="type-3">
   <div class="container">
     <!-- Demo styles -->
   <style>
@@ -59,15 +59,19 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
                                     <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -84,15 +88,19 @@ $url_path = str_replace('\\', '/', $url_path);
                         </ul>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
                                     <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -111,15 +119,19 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
                                     <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -138,15 +150,19 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
                                     <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -165,15 +181,19 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
                                     <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -192,15 +212,19 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
                                     <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -219,15 +243,19 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
                                     <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -246,15 +274,19 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
                                     <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -273,15 +305,19 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
                                     <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -300,15 +336,19 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
                                     <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
