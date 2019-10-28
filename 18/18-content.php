@@ -1,4 +1,4 @@
-<div class="type-10">
+<div class="type-18">
     <div class="container set-width">
         <div class="cart-main">
             <div class="row cart-body">
