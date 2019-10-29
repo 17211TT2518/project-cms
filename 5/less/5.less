@@ -1,50 +1,58 @@
     .type-5 {
+ 
+        margin-top: 80px;
+           
         @a: #b3acac;
-        @b: center;
         @c: uppercase;
         @d: 1.5em;
         @e: 40px;
-        margin: @e;
-        .picture {
-            background-image: url(../images/1.png);
-       
+        .img{
+            background-image: url(../images/1.png); 
+            // background-position: center center;
+            background-position: unset;
+            background-size: cover;
+        }
+            .content{
+                margin-top: 26px;
+            }
             h1 {
                 text-transform: @c;
-                text-align: @b;
                 color: @a;
                 font-weight: bold;
-                line-height: 0.3;
-                margin-top: @e;
+                line-height: 1;
                 font-family: Bodoni MT Black;
             }
 
             p {
-                text-align: @b;
                 color: @a;
                 font-size: @d;
                 margin-top: @e;
                 font-style: italic;
             }
-
-            .form-control {
-                border-radius: 20px;
-                // width: 280px;
-                display: inline-block;
-                color: @a;
-                margin-left: 0;
-                margin-top: 30px;
-                opacity: 0.4;
-            }
-            .btn-center{
-                display: flex; 
-                justify-content: center; 
-                .btn {
+            .form{
+                margin-bottom: 50px;
+                // display: flex;
+                // justify-content: center;
+                .form-control {
                     border-radius: 20px;
-                    margin-top: 20px;
-                    margin-bottom: @e;
-                }
-            }        
-        }
+                    width: 280px;
+                    display: inline-block;
+                    color: @a;
+                    margin-left: 0;
+                    margin-top: 30px;
+                    opacity: 0.4;
+                    display: inline-block;
+                }       
+                    .btn {
+                        width: 100px;
+                        margin-left: 30px;
+                        border-radius: 20px;
+                        margin-top: -4px;      
+                        display: inline-block;
+                    }
+                     
+            }
+            
         @media screen and (max-width: 480px) {
             h1 {
                 font-size: 2em;
