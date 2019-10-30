@@ -47,36 +47,57 @@
                 margin-bottom: 25px;
             }
         }
-        .icon-share{
+        .icon-share{  
             text-align: center;
+            margin-left: 62px;
             ul li{
                 list-style: none;
                 display: inline-block;
                 width: 30px;
                 height: 30px;
                 padding-top: 5px;
-                margin-left: -40px;
+                margin-left: -45px;
                 margin-right: 55px;
             }
-            .social-facebook:hover{
-                background-color: #365493;
+            .social-facebook {
+                border: solid 1.5px @color-gray;
                 border-radius: 50%;
-                color: @color-white;
+                color: @color-gray;
+                &:hover{
+                    background-color: #365493;
+                    border-color: #365493;
+                    color: @color-white;
+                }
             }
-            .social-twitter:hover{
-                background-color: #3CF;
+            .social-twitter{
+                border: solid 1.5px @color-gray;
                 border-radius: 50%;
-                color: @color-white; 
+                color: @color-gray;
+                &:hover{
+                    background-color: #3CF;
+                    border-color: #3CF;
+                    color: @color-white; 
+                }
+            } 
+            .social-email{
+                border: solid 1.5px @color-gray;
+                border-radius: 50%;
+                color: @color-gray;
+                &:hover{
+                    background-color: #F89A1E;
+                    border-color: #F89A1E;
+                    color: @color-white;   
+                }
             }
-            .social-email:hover{
-                background-color: #F89A1E;
+            .social-in{
+                border: solid 1.5px @color-gray;
                 border-radius: 50%;
-                color: @color-white;   
-            }
-            .social-in:hover{
-                background-color: #0274b3;
-                border-radius: 50%;
-                color: @color-white; 
+                color: @color-gray;
+                &:hover{
+                    background-color: #0274b3;
+                    border-color: #0274b3;
+                    color: @color-white; 
+                }
             }
         }
     }

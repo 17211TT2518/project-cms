@@ -14,13 +14,13 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='3'>
+                                <p class='star selected' data-value='3'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='4'>
@@ -41,16 +41,16 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='3'>
+                                <p class='star selected' data-value='3'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='4'>
+                                <p class='star selected' data-value='4'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='5'>
@@ -68,10 +68,10 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='3'>
@@ -95,19 +95,19 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='3'>
+                                <p class='star selected' data-value='3'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='4'>
+                                <p class='star selected' data-value='4'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='5'>
+                                <p class='star selected' data-value='5'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                             </span>
@@ -130,10 +130,10 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='3'>
@@ -157,13 +157,13 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='3'>
+                                <p class='star selected' data-value='3'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='4'>
@@ -184,13 +184,13 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='3'>
+                                <p class='star selected' data-value='3'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='4'>
@@ -211,13 +211,13 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='3'>
+                                <p class='star selected' data-value='3'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='4'>
@@ -246,16 +246,16 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='3'>
+                                <p class='star selected' data-value='3'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='4'>
+                                <p class='star selected' data-value='4'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='5'>
@@ -273,13 +273,13 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='3'>
+                                <p class='star selected' data-value='3'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='4'>
@@ -300,13 +300,13 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='3'>
+                                <p class='star selected' data-value='3'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='4'>
@@ -327,16 +327,16 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='3'>
+                                <p class='star selected' data-value='3'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='4'>
+                                <p class='star selected' data-value='4'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='5'>
@@ -362,13 +362,13 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='3'>
+                                <p class='star selected' data-value='3'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='4'>
@@ -389,10 +389,10 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='3'>
@@ -416,13 +416,13 @@
                         <!-- Rating Stars Box -->
                         <div class='rating-stars'>
                             <span id='stars'>
-                                <p class='star' data-value='1'>
+                                <p class='star selected' data-value='1'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='2'>
+                                <p class='star selected' data-value='2'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
-                                <p class='star' data-value='3'>
+                                <p class='star selected' data-value='3'>
                                     <i class='fa fa-star fa-fw'></i>
                                 </p>
                                 <p class='star' data-value='4'>
