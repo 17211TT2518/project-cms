@@ -66,3 +66,7 @@
 .type-8 .product .rating-stars .star.selected i.fa {
   color: #FF912C;
 }
+.type-8 .product .rating-stars .fa-fw {
+  text-align: left !important;
+  width: 1.1em !important;
+}

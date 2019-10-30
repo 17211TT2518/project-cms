@@ -48,10 +48,10 @@
                 </div>
                 <div class="icon-share">
                     <ul>
-                        <li class="social-facebook"><i class="fa fa-facebook-square"></i></li>
-                        <li class="social-twitter"><i class="fa fa-twitter"></i></li>
-                        <li class="social-email"><i class="fa fa-envelope-o"></i></li>
-                        <li class="social-in"><i class="fa fa-linkedin"></i></li>
+                        <a href="#"><li class="social-facebook" title="facebook"><i class="fa fa-facebook"></i></li></a>
+                        <a href="#"><li class="social-twitter" title="Twitter"><i class="fa fa-twitter"></i></li></a>
+                        <a href="#"><li class="social-email" title="Email"><i class="fa fa-envelope-o"></i></li></a>
+                        <a href="#"><li class="social-in" title="Linkedin"><i class="fa fa-linkedin"></i></li></a> 
                     </ul>
                 </div>
             </div>

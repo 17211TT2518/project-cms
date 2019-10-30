@@ -1,10 +1,7 @@
 var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 4,
+    slidesPerView: 5,
     spaceBetween: 10,
     loop: true,
-    zoom: {
-        maxRatio: 1,
-    },
     pagination: {
         el: '.swiper-pagination',
         dynamicBullets: true,
