@@ -1,48 +1,100 @@
 .type-11 {
-    .bg {
-        background-image: url(../images/1.png);
-        width: 100%;
-        height: 100%;
-
-        .content {
-            // display: flex; 
-            // justify-content: center; 
-            text-align: center;
-            padding-top: 100px;
-
-            h1 {
-                color: #ffffff;
-                font-size: 5em;
-                font-weight: bold;
+    margin-top: 50px;
+        .img{
+            background-image: url(../images/2.png);
+            background-size: cover;
+            background-position: unset;
+            .content {
+                text-align: center;
+                padding-top: 30px;
+    
+                h1 {
+                    color: #ffffff;
+                    font-size: 5em;
+                    font-weight: bold;
+                }
+    
+                p {
+                    padding-top: 30px;
+                    color: #ffffff;
+                    font-size: 2em;
+                }
+    
             }
-
-            p {
-                color: #ffffff;
-                font-size: 2em;
+    
+            .all-icon {
+                display: flex;
+                justify-content: center;
+                // margin-top: 70px;
+                padding-top: 50px;
+                 padding-bottom: 70px;
+                 
+                .fa{
+                    margin-left: 5px;
+                }
+                .fa-facebook {
+                    width: 40px;
+                    height: 40px;
+                    border: 2px solid #ffffff;
+                    color: #ffffff;
+                    font-size: 1.5em;
+                    border-radius: 50%;
+                    padding: 10px;
+                    &:hover {
+                        background: blue;
+                    }
+                }
+                .fa-twitter {
+                    width: 40px;
+                    height: 40px;
+                    border: 2px solid #ffffff;
+                    color: #ffffff;
+                    font-size: 1.5em;
+                    border-radius: 50%;
+                    padding: 10px;
+                    &:hover {
+                        background: rgb(96, 131, 206);
+                    }
+                }
+                .fa-envelope-o {
+                    width: 40px;
+                    height: 40px;
+                    border: 2px solid #ffffff;
+                    color: #ffffff;
+                    font-size: 1.5em;
+                    border-radius: 50%;
+                    padding: 8px 29px 10px 10px;
+                    &:hover {
+                        background: rgb(21, 22, 22);
+                    }
+                }
+                .fa-pinterest-p {
+                    width: 40px;
+                    height: 40px;
+                    border: 2px solid #ffffff;
+                    color: #ffffff;
+                    font-size: 1.5em;
+                    border-radius: 50%;
+                    padding: 9px 27px 10px 12px;
+                    &:hover {
+                        background: rgb(211, 22, 22);
+                    }
+                }
+                .fa-instagram {
+                    width: 40px;
+                    height: 40px;
+                    border: 2px solid #ffffff;
+                    color: #ffffff;
+                    font-size: 1.5em;
+                    border-radius: 50%;
+                    padding: 9px 27px 10px 12px;
+                    &:hover {
+                        background: rgb(110, 156, 224);
+                    }
+                }
             }
-
         }
-
-        .all-icon {
-            display: flex;
-            justify-content: center;
-            margin-top: 70px;
-            padding-bottom: 220px;
-
-            i {
-                border: 2px solid #ffffff;
-                color: #ffffff;
-                font-size: 2em;
-                border-radius: 50%;
-                padding: 10px;
-                margin: 3px;
-            }
-
-            i:hover {
-                background: blue;
-            }
-        }
-    }
+      
     @media screen and (max-width: 500px) {
         h1{
             font-size: 3em !important;

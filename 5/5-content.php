@@ -8,21 +8,19 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-5">
-	<div class="container picture">
+	<div class="container">
+		<div class="img">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-6 text-center content">
 				<h1>signup for</h1>
 				<h1> newslettre</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit alias accusamu.</p>
-				<form action="#">
-					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email (required)">
-					<div class="btn-center">
-					<button type="submit" class="btn btn-warning">Sign up</button>
-					</div>
+				<form action="#" class="form">
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="&nbsp;&nbsp;&nbsp;Your Email (required)">
+					<button type="submit" class="btn btn-warning">Sign up</button>	
 				</form>
 			</div>
-			<div class="col-md-6">
-			</div>
+		</div>
 		</div>
 	</div>
 </div>

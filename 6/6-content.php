@@ -23,6 +23,9 @@ $url_path = str_replace('\\', '/', $url_path);
 					</div>
 					<div class="text">
 						<h5>Welcome to Flatsome</h5>
+						<div class="line-custom">
+						<div class="line-bottom"></div>
+						</div>
 						<p>Welcome to WordPress. This is your first post. Edit or delete it, then start blogging! [...] </p>
 					</div>
 				</div>
@@ -34,6 +37,9 @@ $url_path = str_replace('\\', '/', $url_path);
 					</div>
 					<div class="text">
 						<h5>Just another post with A Gallery</h5>
+						<div class="line-custom">
+						<div class="line-bottom"></div>
+						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]</p>
 					</div>
 				</div>
@@ -44,6 +50,9 @@ $url_path = str_replace('\\', '/', $url_path);
 					</div>
 					<div class="text">
 						<h5>Another post with A Gallery</h5>
+						<div class="line-custom">
+						<div class="line-bottom"></div>
+						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]</p>
 					</div>
 				</div>
@@ -54,6 +63,9 @@ $url_path = str_replace('\\', '/', $url_path);
 					</div>
 					<div class="text">
 						<h5>New Client Landed</h5>
+						<div class="line-custom">
+						<div class="line-bottom"></div>
+						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]</p>
 					</div>
 				</div>
@@ -64,6 +76,9 @@ $url_path = str_replace('\\', '/', $url_path);
 					</div>
 					<div class="text">
 						<h5>An Amazing responsive and Retina ready theme.</h5>
+						<div class="line-custom">
+						<div class="line-bottom"></div>
+						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]</p>
 					</div>
 				</div>
@@ -74,6 +89,9 @@ $url_path = str_replace('\\', '/', $url_path);
 					</div>
 					<div class="text">
 						<h5>An Amazing responsive and Retina ready theme.</h5>
+						<div class="line-custom">
+						<div class="line-bottom"></div>
+						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]</p>
 					</div>
 				</div>
@@ -84,6 +102,9 @@ $url_path = str_replace('\\', '/', $url_path);
 					</div>
 					<div class="text">
 						<h5>An Amazing responsive and Retina ready theme.</h5>
+						<div class="line-custom">
+						<div class="line-bottom"></div>
+						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]</p>
 					</div>
 				</div>
@@ -94,6 +115,9 @@ $url_path = str_replace('\\', '/', $url_path);
 					</div>
 					<div class="text">
 						<h5>An Amazing responsive and Retina ready theme.</h5>
+						<div class="line-custom">
+						<div class="line-bottom"></div>
+						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]</p>
 					</div>
 				</div>
