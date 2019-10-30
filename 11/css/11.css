@@ -1,32 +1,34 @@
 .type-11 {
-  background-image: url(../images/2.png);
-  background-size: cover;
   margin-top: 50px;
 }
-.type-11 .content {
+.type-11 .bg-custom {
+  background-image: url(../images/2.png);
+  background-size: cover;
+}
+.type-11 .bg-custom .content {
   text-align: center;
   padding-top: 30px;
 }
-.type-11 .content h1 {
+.type-11 .bg-custom .content h1 {
   color: #ffffff;
   font-size: 5em;
   font-weight: bold;
 }
-.type-11 .content p {
+.type-11 .bg-custom .content p {
   padding-top: 30px;
   color: #ffffff;
   font-size: 2em;
 }
-.type-11 .all-icon {
+.type-11 .bg-custom .all-icon {
   display: flex;
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 70px;
 }
-.type-11 .all-icon .fa {
+.type-11 .bg-custom .all-icon .fa {
   margin-left: 5px;
 }
-.type-11 .all-icon .fa-facebook {
+.type-11 .bg-custom .all-icon .fa-facebook {
   width: 40px;
   height: 40px;
   border: 2px solid #ffffff;
@@ -35,10 +37,10 @@
   border-radius: 50%;
   padding: 10px;
 }
-.type-11 .all-icon .fa-facebook:hover {
+.type-11 .bg-custom .all-icon .fa-facebook:hover {
   background: blue;
 }
-.type-11 .all-icon .fa-twitter {
+.type-11 .bg-custom .all-icon .fa-twitter {
   width: 40px;
   height: 40px;
   border: 2px solid #ffffff;
@@ -47,10 +49,10 @@
   border-radius: 50%;
   padding: 10px;
 }
-.type-11 .all-icon .fa-twitter:hover {
+.type-11 .bg-custom .all-icon .fa-twitter:hover {
   background: #6083ce;
 }
-.type-11 .all-icon .fa-envelope-o {
+.type-11 .bg-custom .all-icon .fa-envelope-o {
   width: 40px;
   height: 40px;
   border: 2px solid #ffffff;
@@ -59,10 +61,10 @@
   border-radius: 50%;
   padding: 8px 29px 10px 10px;
 }
-.type-11 .all-icon .fa-envelope-o:hover {
+.type-11 .bg-custom .all-icon .fa-envelope-o:hover {
   background: #151616;
 }
-.type-11 .all-icon .fa-pinterest-p {
+.type-11 .bg-custom .all-icon .fa-pinterest-p {
   width: 40px;
   height: 40px;
   border: 2px solid #ffffff;
@@ -71,10 +73,10 @@
   border-radius: 50%;
   padding: 9px 27px 10px 12px;
 }
-.type-11 .all-icon .fa-pinterest-p:hover {
+.type-11 .bg-custom .all-icon .fa-pinterest-p:hover {
   background: #d31616;
 }
-.type-11 .all-icon .fa-instagram {
+.type-11 .bg-custom .all-icon .fa-instagram {
   width: 40px;
   height: 40px;
   border: 2px solid #ffffff;
@@ -83,7 +85,7 @@
   border-radius: 50%;
   padding: 9px 27px 10px 12px;
 }
-.type-11 .all-icon .fa-instagram:hover {
+.type-11 .bg-custom .all-icon .fa-instagram:hover {
   background: #6e9ce0;
 }
 @media screen and (max-width: 500px) {
