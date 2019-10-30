@@ -18,6 +18,9 @@
     margin-bottom: 20px;
   }
 }
+.type-3 .mnb:hover {
+  color: red;
+}
 .type-3 .card-product {
   border: none;
   position: relative;
@@ -28,14 +31,23 @@
 .type-3 .card-product .img-wrap .font-awe {
   list-style: none;
   position: absolute;
-  visibility: hidden;
-  transition: all .5s ease-in-out;
-  right: 0px;
+  right: 10px;
   top: 0;
 }
 .type-3 .card-product .img-wrap .hover-img {
+  visibility: hidden;
   position: absolute;
+  left: 0;
   top: 0;
+}
+.type-3 .card-product .img-wrap .mnb {
+  visibility: hidden;
+}
+.type-3 .card-product .img-wrap:hover .hover-img {
+  visibility: unset;
+}
+.type-3 .card-product .img-wrap:hover .mnb {
+  visibility: unset;
 }
 .type-3 .card-product .info-wrap {
   padding-left: 0;
@@ -85,10 +97,6 @@
   font-weight: 600;
   text-transform: none;
   font-size: 16px;
-}
-.type-3 .card-product .img-wrap:hover .hover-img {
-  z-index: -1;
-  opacity: 0;
 }
 .type-3 .card-product:hover .price-new {
   height: 0;

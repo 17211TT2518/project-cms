@@ -23,8 +23,9 @@
             margin-bottom: 20px;
         }
     }
-
-
+    .mnb:hover{
+        color: red;
+    }
     .card-product {
         border: none;
         position: relative;
@@ -33,27 +34,37 @@
             .font-awe {
                 list-style: none;
                 position: absolute;
+                right: 10px;
+                top: 0;
+            }   
+
+            .hover-img {
                 visibility: hidden;
-                transition: all .5s ease-in-out;
-                right: 0px;
+                position: absolute;
+                left: 0;
                 top: 0;
             }
-            .hover-img {
-                position: absolute;
-                top: 0;
+            .mnb{
+                visibility: hidden;
+            }
+            &:hover .hover-img{
+                visibility: unset;
+                
+            }
+            &:hover .mnb{
+                visibility: unset;
             }
         }
         .info-wrap {
             padding-left: 0;
             padding-bottom: 0;
             font-size: 17px;
-
+            
             .title {
                 font-family: "Times New Roman", Times, serif;
                 color: #000;
                 border-bottom: 1px solid rgba(0, 0, 0, .1);
             }
-
             .price-wrap {
                 color: #949494;
                 margin-top: 10px;
@@ -102,11 +113,6 @@
 
     }
 
-    .card-product .img-wrap:hover .hover-img {
-        z-index: -1;
-        opacity: 0;
-    }
-
     .card-product:hover .price-new {
         height: 0;
     }
@@ -126,4 +132,5 @@
     .checked{
         color:orange;
     }
+
 }

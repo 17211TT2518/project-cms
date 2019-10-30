@@ -24,7 +24,9 @@
         <link href="<?php echo $url_path ?>/css/15.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/swiper.min.css">
         <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
-         
+        <script src="<?php echo $url_path ?>/js/popper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
+        
     </head>
     <body>
         <?php include '15-content.php'; ?>
