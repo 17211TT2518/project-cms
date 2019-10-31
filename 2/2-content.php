@@ -1,5 +1,5 @@
 <div class="type-2">
-    <div class="container">
+    <div class="container md">
         <div class="row">
             <div class="col-md-8 pro-left1">
                 <!-- start slide product -->
@@ -10,7 +10,7 @@
                                 <img src="images/fashionSlider-1000x425.jpg" class="img-responsive" alt="pic1">
                             </div>                          
                             <div class="swiper-slide">
-                                <img src="images/fashionSlider-1000x425.jpg" class="img-responsive" alt="ipic11">
+                                <img src="images/summer-singlet-1200x750-1000x625.jpg" class="img-responsive" alt="ipic11">
                             </div>
                         </div>
                         <!-- Add Pagination -->

@@ -1,10 +1,8 @@
 .type-2 {
   margin-top: 50px;
+  height: 565px;
+  width: auto;
 }
-.type-2 .pro-left1 {
-  background-repeat: no-repeat;
-  height: 100%;
-}
-.type-2 .pro-right1 {
-  background-repeat: no-repeat;
+.type-2 .md .pro-left1 img {
+  margin: 0 important;
 }
