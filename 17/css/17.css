@@ -3,6 +3,11 @@
   line-height: 1.6;
   color: #777;
 }
+.type-17 .tabs h3 {
+  color: #555;
+  font-size: 1.35em;
+  font-weight: 700;
+}
 .type-17 .nav {
   border-bottom: none;
   border-top: 1px solid #ddd;
@@ -95,13 +100,12 @@
   margin-top: 10px;
 }
 .type-17 .comments .avatar {
-  width: 150px;
   margin-right: 20px;
 }
 .type-17 .comments .avatar img {
-  display: inline-block;
-  vertical-align: middle;
   border-radius: 100%;
+  width: 80px;
+  height: 80px;
 }
 .type-17 .star-rating {
   line-height: 32px;
@@ -109,4 +113,28 @@
 }
 .type-17 .star-rating .fa-star {
   color: #D26E4B;
+}
+.type-17 .add-review {
+  border: 2px solid #58AAAA;
+  padding: 0 15px 30px;
+}
+.type-17 .add-review textarea,
+.type-17 .add-review input {
+  border-radius: 0;
+}
+.type-17 .add-review label {
+  color: #000;
+  margin-top: 10px;
+  font-weight: 700;
+}
+.type-17 .add-review .star-rating {
+  font-size: 1.65em;
+}
+.type-17 .add-review .star-rating .fa {
+  cursor: pointer;
+  margin-right: 5px;
+}
+.type-17 .add-review .star-rating input[type="submit"] {
+  font-weight: 700;
+  white-space: 2;
 }
