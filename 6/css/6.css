@@ -27,7 +27,6 @@
   height: 100%;
 }
 .type-6 .swiper-container .swiper-slide {
-  position: relative;
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -44,6 +43,14 @@
   -webkit-align-items: center;
   align-items: center;
   display: block;
+}
+.type-6 .swiper-container .swiper-slide .hihi {
+  position: relative;
+  width: 100%;
+}
+.type-6 .swiper-container .swiper-slide .hihi img {
+  display: block;
+  width: 100%;
 }
 .type-6 .swiper-container .swiper-slide .square {
   left: 0;
