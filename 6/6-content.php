@@ -16,10 +16,13 @@ $url_path = str_replace('\\', '/', $url_path);
 		</div>
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
-				<div id="picture-one" class="swiper-slide"><img class="img-responsive" src="./images/1.png" alt="responsive">
-					<div class="square">
-						<span class="number">19</span>
-						<span>Nov</span>
+				<div id="picture-one" class="swiper-slide">
+					<div class="hihi">
+						<img class="img-responsive" src="./images/1.png" alt="responsive">
+						<div class="square">
+							<span class="number">19</span>
+							<span>Nov</span>
+						</div>						
 					</div>
 					<div class="text">
 						<h5>Welcome to Flatsome</h5>
@@ -30,10 +33,13 @@ $url_path = str_replace('\\', '/', $url_path);
 					</div>
 				</div>
 
-				<div class="swiper-slide"><img class="img-responsive" src="./images/2.png" alt="responsive">
-					<div class="square">
-						<span class="number">19</span>
-						<span>Nov</span>
+				<div class="swiper-slide">
+					<div class="hihi">
+						<img class="img-responsive" src="./images/2.png" alt="responsive">
+						<div class="square">
+							<span class="number">19</span>
+							<span>Nov</span>
+						</div>						
 					</div>
 					<div class="text">
 						<h5>Just another post with A Gallery</h5>
@@ -43,10 +49,13 @@ $url_path = str_replace('\\', '/', $url_path);
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]</p>
 					</div>
 				</div>
-				<div class="swiper-slide"><img class="img-responsive" src="./images/3.png" alt="responsive">
-					<div class="square">
-						<span class="number">19</span>
-						<span>Nov</span>
+				<div class="swiper-slide">
+					<div class="hihi">
+						<img class="img-responsive" src="./images/3.png" alt="responsive">
+						<div class="square">
+							<span class="number">19</span>
+							<span>Nov</span>
+						</div>						
 					</div>
 					<div class="text">
 						<h5>Another post with A Gallery</h5>
@@ -56,10 +65,13 @@ $url_path = str_replace('\\', '/', $url_path);
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]</p>
 					</div>
 				</div>
-				<div class="swiper-slide"><img class="img-responsive" src="./images/4.png" alt="responsive">
-					<div class="square">
-						<span class="number">19</span>
-						<span>Nov</span>
+				<div class="swiper-slide">
+					<div class="hihi">
+						<img class="img-responsive" src="./images/4.png" alt="responsive">
+						<div class="square">
+							<span class="number">19</span>
+							<span>Nov</span>
+						</div>						
 					</div>
 					<div class="text">
 						<h5>New Client Landed</h5>
@@ -69,10 +81,13 @@ $url_path = str_replace('\\', '/', $url_path);
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]</p>
 					</div>
 				</div>
-				<div class="swiper-slide"><img class="img-responsive" src="./images/5.png" alt="responsive">
-					<div class="square">
-						<span class="number">19</span>
-						<span>Nov</span>
+				<div class="swiper-slide">
+					<div class="hihi">
+						<img class="img-responsive" src="./images/5.png" alt="responsive">
+						<div class="square">
+							<span class="number">19</span>
+							<span>Nov</span>
+						</div>						
 					</div>
 					<div class="text">
 						<h5>An Amazing responsive and Retina ready theme.</h5>
@@ -82,10 +97,13 @@ $url_path = str_replace('\\', '/', $url_path);
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]</p>
 					</div>
 				</div>
-				<div class="swiper-slide"><img class="img-responsive" src="./images/6.png" alt="responsive">
-					<div class="square">
-						<span class="number">19</span>
-						<span>Nov</span>
+				<div class="swiper-slide">
+					<div class="hihi">
+						<img class="img-responsive" src="./images/6.png" alt="responsive">
+						<div class="square">
+							<span class="number">19</span>
+							<span>Nov</span>
+						</div>						
 					</div>
 					<div class="text">
 						<h5>An Amazing responsive and Retina ready theme.</h5>
@@ -95,10 +113,13 @@ $url_path = str_replace('\\', '/', $url_path);
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]</p>
 					</div>
 				</div>
-				<div class="swiper-slide"><img class="img-responsive" src="./images/7.png" alt="responsive">
-					<div class="square">
-						<span class="number">19</span>
-						<span>Nov</span>
+				<div class="swiper-slide">
+					<div class="hihi">
+						<img class="img-responsive" src="./images/7.png" alt="responsive">
+						<div class="square">
+							<span class="number">19</span>
+							<span>Nov</span>
+						</div>						
 					</div>
 					<div class="text">
 						<h5>An Amazing responsive and Retina ready theme.</h5>
@@ -108,10 +129,13 @@ $url_path = str_replace('\\', '/', $url_path);
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]</p>
 					</div>
 				</div>
-				<div class="swiper-slide"><img class="img-responsive" src="./images/8.png" alt="responsive">
-					<div class="square">
-						<span class="number">19</span>
-						<span>Nov</span>
+				<div class="swiper-slide">
+					<div class="hihi">
+						<img class="img-responsive" src="./images/8.png" alt="responsive">
+						<div class="square">
+							<span class="number">19</span>
+							<span>Nov</span>
+						</div>						
 					</div>
 					<div class="text">
 						<h5>An Amazing responsive and Retina ready theme.</h5>
