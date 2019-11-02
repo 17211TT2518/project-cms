@@ -2,23 +2,18 @@ var swiper = new Swiper('.swiper-container', {
     breakpoints: {
         400: {
             slidesPerView: 1,
-            spaceBetween: 50,
+            spaceBetween: 10,
         },
         600: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 50,
         },
         999: {
-            slidesPerView: 5,
-            spaceBetween: 30,
+            slidesPerView: 4,
+            spaceBetween: 8,
         }
     },
-    slidesPerView: 4,
-    spaceBetween: 10,
     loop: true,
-    zoom: {
-        maxRatio: 1,
-    },
     pagination: {
         el: '.swiper-pagination',
         dynamicBullets: true,
