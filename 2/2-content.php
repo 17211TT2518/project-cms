@@ -6,16 +6,21 @@
                 <div class="slide-product">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <div class="swiper-slide big">
                                 <img src="images/fashionSlider-1000x425.jpg" class="img-responsive" alt="pic1">
-                                <div class="middle">
-                                    <span class="text">Add Any Headline here</span>
+                                <div class="mid">
+                                    <div class="sml">Add any text here…</div>
+                                    <div class="large">New arrivals on the shop</div>
+                                    <span class="txt">Browse</span>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <img src="images/summer-singlet-1200x750-1000x625.jpg" class="img-responsive"
-                                    alt="ipic11">
-
+                            <div class="swiper-slide big2">
+                                <img src="images/summer-singlet-1200x750-1000x625.jpg" class="img-responsive" alt="ipic11">
+                                <div class="mid2">
+                                    <div class="sml2">Add any text here…</div>
+                                    <div class="large2">New arrivals on the shop</div>
+                                    <span class="txt2">Browse</span>
+                                </div>
                             </div>
                         </div>
                         <!-- Add Pagination -->
