@@ -31,7 +31,7 @@
                                 </p>
                             </span>
                         </div>
-                        <span class="price">£39,00</span>
+                        <span class="price">£59,00</span>
                     </li>
                     <li class="rating">
                         <a href="#">
@@ -58,7 +58,7 @@
                                 </p>
                             </span>
                         </div>
-                        <span class="price">£39,00</span>
+                        <span class="price">£69,00</span>
                     </li>
                     <li>
                         <a href="#">
@@ -85,7 +85,7 @@
                                 </p>
                             </span>
                         </div>
-                        <span class="price">£39,00</span>
+                        <span class="price">£79,00</span>
                     </li>
                     <li>
                         <a href="#">
@@ -112,7 +112,7 @@
                                 </p>
                             </span>
                         </div>
-                        <span class="price">£39,00</span>
+                        <span class="price">£89,00</span>
                     </li>
                 </ul>
             </div>
@@ -147,7 +147,7 @@
                                 </p>
                             </span>
                         </div>
-                        <span class="price">£39,00</span>
+                        <span class="price">£35,00</span>
                     </li>
                     <li>
                         <a href="#">
@@ -174,7 +174,7 @@
                                 </p>
                             </span>
                         </div>
-                        <span class="price">£39,00</span>
+                        <span class="price">£39,66</span>
                     </li>
                     <li>
                         <a href="#">
@@ -201,7 +201,7 @@
                                 </p>
                             </span>
                         </div>
-                        <span class="price">£39,00</span>
+                        <span class="price">£99,00</span>
                     </li>
                     <li>
                         <a href="#">
@@ -228,7 +228,7 @@
                                 </p>
                             </span>
                         </div>
-                        <span class="price">£39,00</span>
+                        <span class="price">£30,00</span>
                     </li>
                 </ul>
             </div>
