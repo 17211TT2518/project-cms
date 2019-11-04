@@ -17,11 +17,11 @@ $url_path = str_replace('\\', '/', $url_path);
 						<p>Change This header to anything by using the UX Builder. You can also remove it. It's only visible on the blog homepage.</p>
 					</div>
 					<div class="all-icon">
-						<a href="#"><i id="icon" class="fa fa-facebook" aria-hidden="true"></i></a>
-						<a href="#"><i id="icon" class="fa fa-twitter" aria-hidden="true"></i></a>
-						<a href="#"><i id="icon" class="fa fa-envelope-o" aria-hidden="true"></i></a>
-						<a href="#"><i id="icon" class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-						<a href="#"><i id="icon" class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a title="Share on Facebook" href="#"><i id="icon" class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a title="Share on Twitter" href="#"><i id="icon" class="fa fa-twitter" aria-hidden="true"></i></a>
+						<a title="Email to a Friend" href="#"><i id="icon" class="fa fa-envelope-o" aria-hidden="true"></i></a>
+						<a title="Pin on Pinterest" href="#"><i id="icon" class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+						<a title="Share on Linkedln" href="#"><i id="icon" class="fa fa-instagram" aria-hidden="true"></i></a>
 					</div>
 				</div>
 				<div class="col-md-3"></div>

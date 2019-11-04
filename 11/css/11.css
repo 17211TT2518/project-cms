@@ -7,17 +7,18 @@
 }
 .type-11 .bg-custom .content {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 .type-11 .bg-custom .content h1 {
-  color: #ffffff;
+  color: #a79f9f;
   font-size: 5em;
   font-weight: bold;
 }
 .type-11 .bg-custom .content p {
-  padding-top: 30px;
-  color: #ffffff;
-  font-size: 2em;
+  padding-top: 10px;
+  color: #cec3c3;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 .type-11 .bg-custom .all-icon {
   display: flex;
