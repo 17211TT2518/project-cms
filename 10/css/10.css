@@ -10,6 +10,9 @@
 }
 .type-10 .modal-dialog .modal-content .modal-body {
   padding: 0;
+  border: .5px solid;
+  border-image-source: linear-gradient(lightgreen,green);
+  border-image-slice: 20;
 }
 .type-10 .modal-dialog .modal-content .modal-body .slide-product {
   position: relative;
@@ -56,7 +59,7 @@
   font-size: 25px;
 }
 .type-10 .modal-dialog .modal-content .modal-body .right-descript {
-  padding: 3em;
+  padding: 1em;
 }
 .type-10 .modal-dialog .modal-content .modal-body .right-descript .title {
   font-weight: 700;

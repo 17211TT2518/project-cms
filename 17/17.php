@@ -33,7 +33,7 @@
 
 <body>
     <?php include '17-content.php'; ?>
-    <script>var $star_rating = $('.star-rating .fa');
+    <script>var $star_rating = $('.add-review > .star-rating .fa');
 
 var SetRatingStar = function() {
   return $star_rating.each(function() {
