@@ -6,18 +6,20 @@
   background-size: cover;
 }
 .type-11 .bg-custom .content {
-  text-align: center;
   padding-top: 50px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 .type-11 .bg-custom .content h1 {
-  color: #a79f9f;
+  color: #ffffff;
   font-size: 5em;
   font-weight: bold;
+  text-align: center;
 }
 .type-11 .bg-custom .content p {
+  text-align: center;
   padding-top: 10px;
-  color: #cec3c3;
-  font-size: 1.3em;
+  color: #ffffff;
+  font-size: 1.5em;
   font-weight: bold;
 }
 .type-11 .bg-custom .all-icon {
@@ -37,6 +39,7 @@
   font-size: 1.5em;
   border-radius: 50%;
   padding: 10px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 .type-11 .bg-custom .all-icon .fa-facebook:hover {
   background: blue;
@@ -49,6 +52,7 @@
   font-size: 1.5em;
   border-radius: 50%;
   padding: 10px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 .type-11 .bg-custom .all-icon .fa-twitter:hover {
   background: #6083ce;
@@ -61,6 +65,7 @@
   font-size: 1.5em;
   border-radius: 50%;
   padding: 8px 29px 10px 10px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 .type-11 .bg-custom .all-icon .fa-envelope-o:hover {
   background: #151616;
@@ -73,6 +78,7 @@
   font-size: 1.5em;
   border-radius: 50%;
   padding: 9px 27px 10px 12px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 .type-11 .bg-custom .all-icon .fa-pinterest-p:hover {
   background: #d31616;
@@ -85,6 +91,7 @@
   font-size: 1.5em;
   border-radius: 50%;
   padding: 9px 27px 10px 12px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 .type-11 .bg-custom .all-icon .fa-instagram:hover {
   background: #6e9ce0;
