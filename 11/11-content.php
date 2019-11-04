@@ -9,9 +9,6 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-11">
 	<div class="container bg-custom">
-			<div class="row text-center">
-				<div class="col-md-3"></div>
-				<div class="col-md-6">
 					<div class="content">
 						<h1>OUR BLOG</h1>
 						<p>Change This header to anything by using the UX Builder. You can also remove it. It's only visible on the blog homepage.</p>
@@ -23,8 +20,5 @@ $url_path = str_replace('\\', '/', $url_path);
 						<a title="Pin on Pinterest" href="#"><i id="icon" class="fa fa-pinterest-p" aria-hidden="true"></i></a>
 						<a title="Share on Linkedln" href="#"><i id="icon" class="fa fa-instagram" aria-hidden="true"></i></a>
 					</div>
-				</div>
-				<div class="col-md-3"></div>
-			</div>
 	</div>
 </div>
