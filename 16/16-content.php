@@ -1,3 +1,12 @@
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
+?>
 <div class="type-10">
     <div class="container"> <!-- start container -->
            <!--  <button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button> -->
@@ -9,27 +18,27 @@
                                         <div class="swiper-wrapper">
                                           <div class="swiper-slide">
             
-                                              <img src="images/1.jpeg" class="img-responsive" alt="">
+                                              <img src="<?php echo $url_path ?>/images/1.jpeg" class="img-responsive" alt="">
                                           <!--     </div> -->
                                           </div>
                                           <div class="swiper-slide">
                                    
-                                              <img src="images/2.jpeg" class="img-responsive" alt="">
+                                              <img src="<?php echo $url_path ?>/images/2.jpeg" class="img-responsive" alt="">
                              
                                           </div>
                                           <div class="swiper-slide">
                                     
-                                              <img src="images/3.jpeg" class="img-responsive" alt="">
+                                              <img src="<?php echo $url_path ?>/images/3.jpeg" class="img-responsive" alt="">
                                      
                                           </div>
                                           <div class="swiper-slide">
                                    
-                                              <img src="images/4.jpeg" class="img-responsive" alt="">
+                                              <img src="<?php echo $url_path ?>/images/4.jpeg" class="img-responsive" alt="">
          
                                           </div>
                                           <div class="swiper-slide">
                            
-                                              <img src="images/5.jpeg" class="img-responsive" alt="">
+                                              <img src="<?php echo $url_path ?>/images/5.jpeg" class="img-responsive" alt="">
                             
                                           </div>
                                         </div>
@@ -42,19 +51,19 @@
                                 <div class="swiper-container gallery-thumbs">
                                     <div class="swiper-wrapper">
                                       <div class="swiper-slide">
-                                          <img src="images/1.jpeg" class="img-responsive" alt="">
+                                          <img src="<?php echo $url_path ?>/images/1.jpeg" class="img-responsive" alt="">
                                       </div>
                                       <div class="swiper-slide">
-                                          <img src="images/2.jpeg" class="img-responsive" alt="">
+                                          <img src="<?php echo $url_path ?>/images/2.jpeg" class="img-responsive" alt="">
                                       </div>
                                       <div class="swiper-slide">
-                                          <img src="images/3.jpeg" class="img-responsive" alt="">
+                                          <img src="<?php echo $url_path ?>/images/3.jpeg" class="img-responsive" alt="">
                                       </div>
                                       <div class="swiper-slide">
-                                          <img src="images/4.jpeg" class="img-responsive" alt="">
+                                          <img src="<?php echo $url_path ?>/images/4.jpeg" class="img-responsive" alt="">
                                       </div>
                                       <div class="swiper-slide">
-                                          <img src="images/5.jpeg" class="img-responsive" alt="">
+                                          <img src="<?php echo $url_path ?>/images/5.jpeg" class="img-responsive" alt="">
                                       </div>
 
                                     </div>
@@ -163,42 +172,42 @@
                                     <h4 class="title">You may also like…</h4>
                                     <div class="row item-pr">
                                         <a href="#" class="item-more-pr col-sm-3 col-md-12">
-                                            <img src="images/1.jpeg" class="img-responsive" alt="">
+                                            <img src="<?php echo $url_path ?>/images/1.jpeg" class="img-responsive" alt="">
                                             <span class="item-pr">Lucy Slim Jeans Noisy May</span>
                                             <div class="price">
                                                 <b>$29,00</b>
                                             </div>
                                         </a>
                                         <a href="#" class="item-more-pr col-sm-3 col-md-12">
-                                            <img src="images/2.jpeg" class="img-responsive" alt="">
+                                            <img src="<?php echo $url_path ?>/images/2.jpeg" class="img-responsive" alt="">
                                             <span class="item-pr">Lucy Slim Jeans Noisy May</span>
                                             <div class="price">
                                                 <b>$29,00</b>
                                             </div>
                                         </a>
                                         <a href="#" class="item-more-pr col-sm-3 col-md-12">
-                                            <img src="images/3.jpeg" class="img-responsive" alt="">
+                                            <img src="<?php echo $url_path ?>/images/3.jpeg" class="img-responsive" alt="">
                                             <span class="item-pr">Lucy Slim Jeans Noisy May</span>
                                             <div class="price">
                                                 <b>$29,00</b>
                                             </div>
                                         </a>
                                         <a href="#" class="item-more-pr col-sm-3 col-md-12">
-                                            <img src="images/1.jpeg" class="img-responsive" alt="">
+                                            <img src="<?php echo $url_path ?>/images/1.jpeg" class="img-responsive" alt="">
                                             <span class="item-pr">Lucy Slim Jeans Noisy May</span>
                                             <div class="price">
                                                 <b>$29,00</b>
                                             </div>
                                         </a>
                                         <a href="#" class="item-more-pr col-sm-3 col-md-12">
-                                            <img src="images/4.jpeg" class="img-responsive" alt="">
+                                            <img src="<?php echo $url_path ?>/images/4.jpeg" class="img-responsive" alt="">
                                             <span class="item-pr">Lucy Slim Jeans Noisy May</span>
                                             <div class="price">
                                                 <b>$29,00</b>
                                             </div>
                                         </a>
                                         <a href="#" class="item-more-pr col-sm-3 col-md-12">
-                                            <img src="images/5.jpeg" class="img-responsive" alt="">
+                                            <img src="<?php echo $url_path ?>/images/5.jpeg" class="img-responsive" alt="">
                                             <span class="item-pr">Lucy Slim Jeans Noisy May</span>
                                             <div class="price">
                                                 <b>$29,00</b>

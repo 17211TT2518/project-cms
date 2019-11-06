@@ -1,3 +1,12 @@
+<?php
+    $url_host = 'http://' . $_SERVER['HTTP_HOST'];
+    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+    preg_match_all($pattern_uri, __DIR__, $matches);
+    $url_path = $url_host . $matches[1][0];
+    $url_path = str_replace('\\', '/', $url_path);
+?>
 <div class="type-1">
     <div class="container">
         <header class="header">
@@ -62,7 +71,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                        <img width="200" height="90" src="images/logo-nav.png" class="img-responsive" alt="Flatsome">
+                        <img width="200" height="90" src="<?php echo $url_path ?>/images/logo-nav.png" class="img-responsive" alt="Flatsome">
                         <a class="cart-custom cart-sm" href="#">
                             <span>
                                 <strong>0</strong>
@@ -76,7 +85,7 @@
 
                         <!-- Links -->
                         <ul class="nav navbar-nav">
-                            <li><a href="#"><i class="fas fa-search"></i></a></li>
+                            <!-- <li><a href="#"><i class="fas fa-search"></i></a></li> -->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle right-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Demos <i class="fas fa-chevron-down"></i></a>
                                 <ul class="dropdown-menu">
@@ -111,6 +120,7 @@
                             </li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Elements</a></li>
+                            <li><a href="#"><i class="fas fa-search"></i></a></li>
                         </ul>
 
                         <div class="navbar-right">
