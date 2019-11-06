@@ -1,4 +1,4 @@
-var swiper = new Swiper('.swiper-container', {
+var swiper7 = new Swiper('.type-7 .swiper-container', {
     breakpoints: {
         400: {
             slidesPerView: 2,
