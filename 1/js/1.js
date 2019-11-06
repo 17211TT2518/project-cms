@@ -12,6 +12,7 @@ $(document).ready(function () {
         if($(this).scrollTop()>100){
             $('.menu-2').css('position','fixed');
             $('.menu-2').css('top','0px');
+            $('.menu-2').css('z-index','99999');
         }else{
             $('.menu-2').css('position','unset');
             $('.menu-2').css('top','-180px');
