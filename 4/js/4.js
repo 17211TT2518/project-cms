@@ -1,4 +1,4 @@
-var swiper = new Swiper('.swiper-container', {
+var swiper4 = new Swiper('.type-4 .swiper-container', {
     breakpoints: {
         400: {
             slidesPerView: 2,
@@ -13,6 +13,7 @@ var swiper = new Swiper('.swiper-container', {
             spaceBetween: 8,
         }
     },
+
     loop: true,
     pagination: {
         el: '.swiper-pagination',

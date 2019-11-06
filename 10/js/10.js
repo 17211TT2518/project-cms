@@ -33,7 +33,7 @@ $(document).ready(function() {
     });
 
     //swiper
-    var swiper = new Swiper('.swiper-container', {
+    var swiper10 = new Swiper('.type-10 .swiper-container', {
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
