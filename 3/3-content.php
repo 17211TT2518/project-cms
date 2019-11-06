@@ -352,26 +352,6 @@
             <div class="swiper-button-prev" style="top: 147px;right: -1px;"></div>
         </div>
 
-        <!-- Swiper JS -->
-        <script src="../package/js/swiper.min.js"></script>
 
-        <!-- Initialize Swiper -->
-        <script>
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 4,
-            spaceBetween: 40,
-            slidesPerGroup: 4,
-            loop: true,
-            loopFillGroupWithBlank: true,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
-        </script>
     </div>
 </div>
