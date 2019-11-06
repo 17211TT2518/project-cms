@@ -1,3 +1,12 @@
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
+?>
 <div class="type-8">
     <div class="container">
         <div class="row">
@@ -8,7 +17,7 @@
                 </div>
                 <ul class="product">
                     <li>
-                        <a href="#"><img width="60" height="60" src="./images/1.jpeg" alt="">
+                        <a href="#"><img width="60" height="60" src="<?php echo $url_path ?>/images/1.jpeg" alt="">
                             <span class="product-title">On1 Jersey UNIF-2</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -35,7 +44,7 @@
                     </li>
                     <li class="rating">
                         <a href="#">
-                            <img width="60" height="60" src="./images/2.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/2.jpeg" alt="">
                             <span class="product-title">Osaka Entry Tee Superdry 12</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -62,7 +71,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img width="60" height="60" src="./images/3.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/3.jpeg" alt="">
                             <span class="product-title">All Star Canvas Hi Converse</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -89,7 +98,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img width="60" height="60" src="./images/4.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/4.jpeg" alt="">
                             <span class="product-title">Fluro Big Pullover Designers Remix</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -124,7 +133,7 @@
                 <ul class="product">
                     <li>
                         <a href="#">
-                            <img width="60" height="60" src="./images/4.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/4.jpeg" alt="">
                             <span class="product-title">On1 Jersey UNIF-2</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -151,7 +160,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img width="60" height="60" src="./images/5.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/5.jpeg" alt="">
                             <span class="product-title">Osaka Entry Tee Superdry 12</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -178,7 +187,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img width="60" height="60" src="./images/6.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/6.jpeg" alt="">
                             <span class="product-title">All Star Canvas Hi Converse</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -205,7 +214,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img width="60" height="60" src="./images/7.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/7.jpeg" alt="">
                             <span class="product-title">Fluro Big Pullover Designers Remix</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -240,7 +249,7 @@
                 <ul class="product">
                     <li>
                         <a href="#">
-                            <img width="60" height="60" src="./images/1.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/1.jpeg" alt="">
                             <span class="product-title">On1 Jersey UNIF-2</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -267,7 +276,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img width="60" height="60" src="./images/2.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/2.jpeg" alt="">
                             <span class="product-title">Osaka Entry Tee Superdry 12</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -294,7 +303,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img width="60" height="60" src="./images/6.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/6.jpeg" alt="">
                             <span class="product-title">All Star Canvas Hi Converse</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -321,7 +330,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img width="60" height="60" src="./images/5.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/5.jpeg" alt="">
                             <span class="product-title">Fluro Big Pullover Designers Remix</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -356,7 +365,7 @@
                 <ul class="product">
                     <li>
                         <a href="#">
-                            <img width="60" height="60" src="./images/7.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/7.jpeg" alt="">
                             <span class="product-title">On1 Jersey UNIF-2</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -383,7 +392,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img width="60" height="60" src="./images/2.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/2.jpeg" alt="">
                             <span class="product-title">Osaka Entry Tee Superdry 12</span>
                         </a>
                         <!-- Rating Stars Box -->
@@ -410,7 +419,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img width="60" height="60" src="./images/3.jpeg" alt="">
+                            <img width="60" height="60" src="<?php echo $url_path ?>/images/3.jpeg" alt="">
                             <span class="product-title">All Star Canvas Hi Converse</span>
                         </a>
                         <!-- Rating Stars Box -->
