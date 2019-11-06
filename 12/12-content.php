@@ -1,3 +1,12 @@
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
+?>
 <div class="type-12">
     <div class="container">
         <div class="row">
@@ -9,7 +18,7 @@
                     <h5>POSTED ON OCTOBER 13, 2015 BY TOMMY VEDVIK</h5>
                 </div>
                 <div class="image-view">
-                    <img src="./images/1.jpg" alt="" class="img-responsive">
+                    <img src="<?php echo $url_path ?>//images/1.jpg" alt="" class="img-responsive">
                     <div class="post-date">
                         <span>13 <b>Oct</b> </span>
                     </div>
@@ -21,28 +30,28 @@
                 </div>
                 <div class="row images-text">
                     <div class="col-md-3">
-                        <img src="./images/2.jpg" alt="" class="img-responsive">
+                        <img src="<?php echo $url_path ?>/images/2.jpg" alt="" class="img-responsive">
                     </div>
                     <div class="col-md-3">
-                        <img src="./images/3.jpg" alt="" class="img-responsive">
+                        <img src="<?php echo $url_path ?>/images/3.jpg" alt="" class="img-responsive">
                     </div>
                     <div class="col-md-3">
-                        <img src="./images/4.jpg" alt="" class="img-responsive">
+                        <img src="<?php echo $url_path ?>/images/4.jpg" alt="" class="img-responsive">
                     </div>
                     <div class="col-md-3">
-                        <img src="./images/5.jpg" alt="" class="img-responsive">
+                        <img src="<?php echo $url_path ?>/images/5.jpg" alt="" class="img-responsive">
                     </div>
                     <div class="col-md-3">
-                        <img src="./images/6.jpg" alt="" class="img-responsive">
+                        <img src="<?php echo $url_path ?>/images/6.jpg" alt="" class="img-responsive">
                     </div>
                     <div class="col-md-3">
-                        <img src="./images/7.jpg" alt="" class="img-responsive">
+                        <img src="<?php echo $url_path ?>/images/7.jpg" alt="" class="img-responsive">
                     </div>
                     <div class="col-md-3">
-                        <img src="./images/8.jpg" alt="" class="img-responsive">
+                        <img src="<?php echo $url_path ?>/images/8.jpg" alt="" class="img-responsive">
                     </div>
                     <div class="col-md-3">
-                        <img src="./images/9.jpg" alt="" class="img-responsive">
+                        <img src="<?php echo $url_path ?>/images/9.jpg" alt="" class="img-responsive">
                     </div>
 
                 </div>

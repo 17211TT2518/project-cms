@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
 			<div class="swiper-wrapper">
 				<div id="picture-one" class="swiper-slide">
 					<div class="hihi">
-						<img class="img-responsive" src="./images/1.png" alt="responsive">
+						<img class="img-responsive" src="<?php echo $url_path ?>/images/1.png" alt="responsive">
 						<div class="square">
 							<span class="number">19</span>
 							<span>Nov</span>
@@ -35,7 +35,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
 				<div class="swiper-slide">
 					<div class="hihi">
-						<img class="img-responsive" src="./images/2.png" alt="responsive">
+						<img class="img-responsive" src="<?php echo $url_path ?>/images/2.png" alt="responsive">
 						<div class="square">
 							<span class="number">19</span>
 							<span>Nov</span>
@@ -51,7 +51,7 @@ $url_path = str_replace('\\', '/', $url_path);
 				</div>
 				<div class="swiper-slide">
 					<div class="hihi">
-						<img class="img-responsive" src="./images/3.png" alt="responsive">
+						<img class="img-responsive" src="<?php echo $url_path ?>/images/3.png" alt="responsive">
 						<div class="square">
 							<span class="number">19</span>
 							<span>Nov</span>
@@ -67,7 +67,7 @@ $url_path = str_replace('\\', '/', $url_path);
 				</div>
 				<div class="swiper-slide">
 					<div class="hihi">
-						<img class="img-responsive" src="./images/4.png" alt="responsive">
+						<img class="img-responsive" src="<?php echo $url_path ?>/images/4.png" alt="responsive">
 						<div class="square">
 							<span class="number">19</span>
 							<span>Nov</span>
@@ -83,7 +83,7 @@ $url_path = str_replace('\\', '/', $url_path);
 				</div>
 				<div class="swiper-slide">
 					<div class="hihi">
-						<img class="img-responsive" src="./images/5.png" alt="responsive">
+						<img class="img-responsive" src="<?php echo $url_path ?>/images/5.png" alt="responsive">
 						<div class="square">
 							<span class="number">19</span>
 							<span>Nov</span>
@@ -99,7 +99,7 @@ $url_path = str_replace('\\', '/', $url_path);
 				</div>
 				<div class="swiper-slide">
 					<div class="hihi">
-						<img class="img-responsive" src="./images/6.png" alt="responsive">
+						<img class="img-responsive" src="<?php echo $url_path ?>/images/6.png" alt="responsive">
 						<div class="square">
 							<span class="number">19</span>
 							<span>Nov</span>
@@ -115,7 +115,7 @@ $url_path = str_replace('\\', '/', $url_path);
 				</div>
 				<div class="swiper-slide">
 					<div class="hihi">
-						<img class="img-responsive" src="./images/7.png" alt="responsive">
+						<img class="img-responsive" src="<?php echo $url_path ?>/images/7.png" alt="responsive">
 						<div class="square">
 							<span class="number">19</span>
 							<span>Nov</span>
@@ -131,7 +131,7 @@ $url_path = str_replace('\\', '/', $url_path);
 				</div>
 				<div class="swiper-slide">
 					<div class="hihi">
-						<img class="img-responsive" src="./images/8.png" alt="responsive">
+						<img class="img-responsive" src="<?php echo $url_path ?>/images/8.png" alt="responsive">
 						<div class="square">
 							<span class="number">19</span>
 							<span>Nov</span>

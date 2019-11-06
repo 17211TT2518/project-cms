@@ -1,3 +1,12 @@
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
+?>
 <div class="type-10">
     <div class="container"> <!-- start container -->
         <!-- The modal -->
@@ -12,22 +21,22 @@
                                     <div class="swiper-container">
                                         <div class="swiper-wrapper">
                                           <div class="swiper-slide">
-                                              <img src="images/1.jpeg" class="img-responsive" alt="">
+                                              <img src="<?php echo $url_path ?>/images/1.jpeg" class="img-responsive" alt="">
                                           </div>
                                           <div class="swiper-slide">
-                                              <img src="images/2.jpeg" class="img-responsive" alt="">
+                                              <img src="<?php echo $url_path ?>/images/2.jpeg" class="img-responsive" alt="">
                                           </div>
                                           <div class="swiper-slide">
-                                              <img src="images/3.jpeg" class="img-responsive" alt="">
+                                              <img src="<?php echo $url_path ?>/images/3.jpeg" class="img-responsive" alt="">
                                           </div>
                                           <div class="swiper-slide">
-                                              <img src="images/4.jpeg" class="img-responsive" alt="">
+                                              <img src="<?php echo $url_path ?>/images/4.jpeg" class="img-responsive" alt="">
                                           </div>
                                           <div class="swiper-slide">
-                                              <img src="images/5.jpeg" class="img-responsive" alt="">
+                                              <img src="<?php echo $url_path ?>/images/5.jpeg" class="img-responsive" alt="">
                                           </div>
                                           <div class="swiper-slide">
-                                              <img src="images/6.jpeg" class="img-responsive" alt="">
+                                              <img src="<?php echo $url_path ?>/images/6.jpeg" class="img-responsive" alt="">
                                           </div>
                                         </div>
                                         <!-- Add Pagination -->

@@ -11,8 +11,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <!-- SALE -->
         <div class="row">
-            <div class="col-md-6">
-                
+            <div class="col-md-6"> 
                 <div class="tab-content">
                 <ul class="nav question">
                     <li><a data-toggle="pill" href="#menu1">SALE</a></li>
@@ -394,6 +393,5 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </div>
-
     </div>
 </div>

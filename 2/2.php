@@ -7,13 +7,6 @@
 	$url_path = $url_host . $matches[1][0];
 	$url_path = str_replace('\\', '/', $url_path);
 
-	if (!class_exists('lessc')) {
-		$dir_block = dirname($_SERVER['SCRIPT_FILENAME']);		
-		require_once($dir_block.'/libs/lessc.inc.php');
-	}
-	
-	$less = new lessc;
-	$less->compileFile('less/2.less', 'css/2.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">

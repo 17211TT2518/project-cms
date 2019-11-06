@@ -49,9 +49,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-slide">
                 <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/giay1.jpg" style="width:240px;height:292px;">
+                            <img src="<?php echo $url_path ?>/images/giay1.jpg" style="width:240px;height:292px;">
                             
-                            <img class="hover-img" src="images/giay2.jpg" style="width:240px;height:292px;">
+                            <img class="hover-img" src="<?php echo $url_path ?>/images/giay2.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
@@ -79,9 +79,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-slide">
                 <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/giay2.jpg" style="width:240px;height:292px;">
+                            <img src="<?php echo $url_path ?>/images/giay2.jpg" style="width:240px;height:292px;">
                             
-                            <img class="hover-img" src="images/giay3.jpg" style="width:240px;height:292px;">
+                            <img class="hover-img" src="<?php echo $url_path ?>/images/giay3.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
@@ -109,9 +109,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-slide">
                 <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/giay3.jpg" style="width:240px;height:292px;">
+                            <img src="<?php echo $url_path ?>/images/giay3.jpg" style="width:240px;height:292px;">
                             
-                            <img class="hover-img" src="images/giay4.jpg" style="width:240px;height:292px;">
+                            <img class="hover-img" src="<?php echo $url_path ?>/images/giay4.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
@@ -139,9 +139,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-slide">
                 <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/giay4.jpg" style="width:240px;height:292px;">
+                            <img src="<?php echo $url_path ?>/images/giay4.jpg" style="width:240px;height:292px;">
                             
-                            <img class="hover-img" src="images/giay5.jpg" style="width:240px;height:292px;">
+                            <img class="hover-img" src="<?php echo $url_path ?>/images/giay5.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
@@ -169,9 +169,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-slide">
                 <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/giay5.jpg" style="width:240px;height:292px;">
+                            <img src="<?php echo $url_path ?>/images/giay5.jpg" style="width:240px;height:292px;">
                             
-                            <img class="hover-img" src="images/giay6.jpg" style="width:240px;height:292px;">
+                            <img class="hover-img" src="<?php echo $url_path ?>/images/giay6.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
@@ -199,9 +199,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-slide">
                 <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/giay6.jpg" style="width:240px;height:292px;">
+                            <img src="<?php echo $url_path ?>/images/giay6.jpg" style="width:240px;height:292px;">
                             
-                            <img class="hover-img" src="images/giay7.jpg" style="width:240px;height:292px;">
+                            <img class="hover-img" src="<?php echo $url_path ?>/images/giay7.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
@@ -229,9 +229,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-slide">
                 <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/giay7.jpg" style="width:240px;height:292px;">
+                            <img src="<?php echo $url_path ?>/images/giay7.jpg" style="width:240px;height:292px;">
                             
-                            <img class="hover-img" src="images/giay8.jpg" style="width:240px;height:292px;">
+                            <img class="hover-img" src="<?php echo $url_path ?>/images/giay8.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
@@ -259,9 +259,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-slide">
                 <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/giay8.jpg" style="width:240px;height:292px;">
+                            <img src="<?php echo $url_path ?>/images/giay8.jpg" style="width:240px;height:292px;">
                             
-                            <img class="hover-img" src="images/giay9.jpg" style="width:240px;height:292px;">
+                            <img class="hover-img" src="<?php echo $url_path ?>/images/giay9.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
@@ -289,9 +289,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-slide">
                 <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/giay9.jpg" style="width:240px;height:292px;">
+                            <img src="<?php echo $url_path ?>/images/giay9.jpg" style="width:240px;height:292px;">
                             
-                            <img class="hover-img" src="images/giay10.jpg" style="width:240px;height:292px;">
+                            <img class="<?php echo $url_path ?>/hover-img" src="images/giay10.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
@@ -319,9 +319,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-slide">
                 <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/giay10.jpg" style="width:240px;height:292px;">
+                            <img src="<?php echo $url_path ?>/images/giay10.jpg" style="width:240px;height:292px;">
                             
-                            <img class="hover-img" src="images/giay1.jpg" style="width:240px;height:292px;">
+                            <img class="hover-img" src="<?php echo $url_path ?>/images/giay1.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
